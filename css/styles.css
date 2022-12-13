@@ -17,7 +17,7 @@ margin: 0;
 
 header {
   width: 100%;
-  height: 50px;
+  height: 70px;
   background-color:rgba(95, 86, 87, 0.468);
   /* display: flex;
   justify-content: space-between;
@@ -48,6 +48,10 @@ header a:hover {
   
 }
 
+.contact-me {
+  margin-bottom: 25px;
+}
+
 main {
   margin-top: 80px;
 }
@@ -66,11 +70,15 @@ main {
   width: 90%;
   
 }
-.profile a .cv {
+.profile  h2 {
   text-decoration: none;
   color: darkcyan;
   
 } 
+
+.profile p {
+  color: rgb(13, 169, 122);
+}
 
 .skills {
   margin: 50px;
@@ -98,7 +106,11 @@ h1 {
 .mountain {
   margin-top: 0px;
   background-color: inherit;
+  
 
+}
+.sub_main {
+  background-color: azure;
 }
 
 .cloud-botton {
@@ -114,6 +126,7 @@ margin-left: 300px;
 
 .middle-container {
   margin:20px; 
+  background-color: aliceblue;
   
 }
 .middle-container p {
