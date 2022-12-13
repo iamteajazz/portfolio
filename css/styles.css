@@ -67,10 +67,19 @@ main {
   width: 90%;
   
 }
+.profile a .cv {
+  text-decoration: none;
+  color: darkcyan;
+  
+} 
 
 .skills {
   margin: 50px;
   background-color: #2980b9;
+}
+.skills h2 {
+  color: rgb(13, 169, 122);
+  padding: 10px;
 }
 
 h1 {
@@ -140,6 +149,9 @@ display: inline-table;
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
 a :hover {
   background-color: #939588;
   color: antiquewhite;
