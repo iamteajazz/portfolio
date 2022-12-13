@@ -1,0 +1,185 @@
+*{
+    /* background-color: #ff4c68; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body  {
+        font-family: 'Crimson Pro', serif;
+        font-size: 2rem;
+        line-height: 2.5; }
+
+
+
+  #title {
+  background-color: #ff4c68;
+  }
+  
+  
+  .container-fluid {
+  padding: 3% 15%;
+
+  }
+  
+  a {
+   text-decoration: none;
+   display: flex;
+   padding-left: 50px;
+   color: white;
+   font-size: 1rem;
+  
+  }
+  
+  ul {
+  display: flex;
+  list-style: none;
+  padding-left: 800px;
+  
+  
+  
+  }
+
+  /* study z index */
+  
+  .title-image {
+  
+  transform: rotate(-25deg);
+  /* position: relative;
+  z-index: 1; */
+  
+  }
+  
+    
+     h1 {
+  color: white; 
+
+}
+  
+  
+    i {
+  color: #e28743; }
+  
+  
+  
+  i {
+  
+  color: #e28743;
+  }
+  
+  i {
+  
+  color: #e28743;
+
+  }
+  
+  i:hover {
+  color: yellow
+  
+  }
+  
+  i:hover {
+  color: yellow }
+  
+  i:hover {
+    color: yellow
+  }
+  
+  #features {
+
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff
+    /* position: relative; 
+    z-index: 1; */
+  }
+
+  h3 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 15px;
+    font-size: 1.5rem;
+
+  }
+  #testimonials {
+      padding: 7%;
+      text-align: center;
+      background-color: #ff4c68;
+      /* margin-bottom: 10%; */
+  }
+
+ h2 {
+     font-size: 3rem;
+     line-height: 1.5;
+ }
+
+
+ .testimonial-img {
+    padding: 7%;
+    border-radius: 50%;
+    width: 40px;
+ }
+
+ em {
+     margin-left: 20px;
+ }
+
+ .press-logo {
+     width: 150px;
+     margin-left: 150px;
+     margin-right: 20px;
+     margin-bottom: 80px;
+     
+ }
+
+ #press {
+    background-color: #ff4c68;
+ }
+
+ .d-block {
+
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 300px;
+    
+ }
+
+ .card-holder {
+     display: flex;
+     text-align: center;
+     margin-left: 90px;
+     
+     
+ }
+
+ .card-heading {
+     margin-left: 500px;
+     margin-top: 40px;
+ }
+/* media query */
+ @media (max-width: 900px) {
+    .title-image {
+      position: static;
+      background-color: #e28743;
+      transform: rotate(0);
+    }
+ }
+ #cta {
+   background-color: #ff4c68;
+   text-align: center;
+   width: 100%;
+   height: 150px;
+   margin-top: 30px;
+ }
+
+ .navbar-brand {
+   color: #fff;
+ }
+
+#footer-social {
+  display: flex;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+
+#footer {
+  margin-left: 525px;
+}
