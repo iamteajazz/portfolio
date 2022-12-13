@@ -40,8 +40,6 @@ header a:hover {
 }
 
 #logo {
-  /* width: max(100px, 18vw); */
-  background-color:rgba(95, 86, 87, 0.468);
   /* aspect-ratio: 35 / 4; */
   padding: 0.4rem;
   width: 15%;
@@ -49,6 +47,12 @@ header a:hover {
   border-radius: 50%;
   
 }
+.info {
+  color: #3498db;
+  background-image: url(../image/DotsLines_24fps-1.gif);
+ 
+}
+
 main {
   margin-top: 80px;
 }
@@ -77,6 +81,15 @@ main {
   margin: 50px;
   background-color: #2980b9;
 }
+  hr {
+    border-style: inset;
+    border-width: 2px;
+    border-color: darkcyan;
+ }
+
+.skillz {
+  background-image: url(../image/DotsLines_24fps-1.gif);
+}
 .skills h2 {
   color: rgb(13, 169, 122);
   padding: 10px;
@@ -84,7 +97,7 @@ main {
 
 h1 {
   font-family: cursive;
-  line-height: 2
+  line-height: 2;
 }
 
 .mountain {
@@ -153,9 +166,9 @@ a {
   text-decoration: none;
 }
 a :hover {
-  background-color: #939588;
-  color: antiquewhite;
-  max-width: 50px;
+  cursor: pointer;
+  /* max-width: 2px; */
+  opacity: 0.6;
 }
 
 footer {
